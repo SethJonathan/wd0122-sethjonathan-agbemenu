@@ -26,30 +26,66 @@
 
     <!--TABELLE-->
     <h3>TABELLE</h3>
-    <table>
+    <table cellpadding="10" cellspacing="10" border=3px>
         <thead>
             <tr>
                 <th>Anno</th>
                 <th>% di utilizzo</th>
                 <th>Supporto browsers</th>
             </tr>
-        </thead>    
-        <tr>
-            <td>2000</td>
-            <td>20%</td>
-            <td>17%</td>
-        </tr>
-        <tr>
-            <td>2002</td>
-            <td>35%</td>
-            <td>22%</td>
-        </tr>
-        <tr>
-            <td></td>
-            <td></td>
-            <td></td>
-        </tr>
+        </thead>
+        <tbody>     
+            <tr>
+                <td>2000</td>
+                <td>20%</td>
+                <td>17%</td>
+            </tr>
+            <tr>
+                <td>2002</td>
+                <td>35%</td>
+                <td>22%</td>
+            </tr>
+        </tbody>
+        <footer>
+
+        </footer>
     </table>
+
+    <form action="login.php" method="post" autocomplete="on">
+        <input type="text" name="Nome" placeholder="Nome" required>
+        <input type="number" min="3" max="5" step=".1" name="Anniversario">
+        <input type="date"><input type="password">
+        <input type="checkbox" required>Testo
+
+        <input type="radio" name="opzioni" value="1">Opzione 1
+        <input type="radio" name="opzioni" value="2">Opzione 2
+        <input type="radio" name="opzioni" value="3">Opzione 3
+
+        <input type="submit">
+
+        <input type="reset">
+
+        <select name="Tendina">
+            <option value=""disable selected>elezionare una variante</option>
+            <option value="v1">Variante 1</option>
+            <option value="v2">Variante 2</option>
+            <option value="v3">Variante 3</option>
+        </select>
+
+    </form>
+
+    <audio src="">
+        <source src="canzone.mp3" type="audio/mpeg">
+        <source src="canzone1.mp3" type="audio/mpeg">
+        Il browser non supporta audio       
+    </audio>
+
+    <video src="">
+        <source src="" type="video/mpeg4">
+        <source src="" type="video/mpeg4">
+        <source src="" type="video/mpeg4">
+        <source src="" type="video/mpeg4">
+    </video>
 
     <!--IFRANE-->
     <h3>IFRAME</h3>
