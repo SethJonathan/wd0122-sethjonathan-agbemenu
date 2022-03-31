@@ -1,0 +1,62 @@
+/*general styles*/
+h1, h2, h3, h4, h5, h6{
+    font-weight: bold;
+}
+
+a{
+    color: red;
+    text-decoration: none;
+}
+
+a:hover{
+    color: coral;
+}
+
+/*head*/
+
+
+
+/*body*/
+
+
+
+/*header*/
+#header{
+    background-color: dodgerblue;
+    height: 100px;
+}
+
+#main-nav li{
+    display: inline-block;
+    background-color: #fff;
+    margin-left: -4px;
+    padding: 5px 0;
+    width: calc(100% / 3);
+}
+
+#header li:hover{
+    background-color: #ccc;
+}
+
+#header li:hover a{
+    color: yellow;
+}
+
+#prima-section{
+    padding: 50px 0;
+    background-image: url(https://picsum.photos/id/1033/367/267);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 20vh;
+}
+
+h1.site-title{
+    color: #fff;
+    font-size: 2rem;
+}
+
+
+
+
+/*footer*/

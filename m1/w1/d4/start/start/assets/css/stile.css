@@ -1,0 +1,201 @@
+/* IMPOSTAZIONI GENERALI */
+
+
+
+
+head {
+    font-family: 'Poppins', sans-serif;
+}
+
+body {
+    background-image: url('../img/sfondo.png');
+    background-attachment: fixed;
+
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-weight: bold;
+}
+
+h1 {
+    font-size: 2rem;
+    margin-bottom: 5px;
+}
+
+h2 {
+    font-size: 1.5rem;
+    margin-bottom: 5px;
+}
+
+/* HEADER */
+
+header {
+    background-color: cadetblue;
+    margin: 20px;
+    padding: 20px;
+    text-align: center;
+    text-transform: uppercase;
+    color: white;
+}
+
+header p {
+    color: whitesmoke;
+}
+
+header li {
+    list-style-type: none;
+    text-align: center;
+}
+
+header li::before {
+    content: "\21DB";
+
+}
+
+header li::after {
+    content: "\21DA";
+
+}
+
+
+
+
+
+
+
+/* MAIN */
+
+
+main {
+    background-color: white;
+    margin: 20px;
+    padding: 20px;
+}
+
+iframe {
+    width: 66vw;
+}
+
+main h2 {
+    text-align: center;
+}
+
+/* ELEMENTI NEL MAIN - ARTICLE */
+
+main article ol {
+    margin-bottom: 20px;
+}
+
+
+table {
+    text-align: center;
+    
+    display: inline-block;
+    vertical-align: middle;
+    margin: 50px;
+    width: 250px;
+    margin-bottom: 50px;
+}
+
+table th,
+td {
+    height: 50px;
+}
+
+
+table thead {
+    background-color: royalblue;
+    color: white;
+
+}
+
+table tr:nth-child(2) {
+    background-color: silver;
+}
+
+table tr:nth-child(4) {
+    background-color: silver;
+}
+
+
+
+
+table caption {
+    font-weight: 600;
+}
+
+
+
+main article caption {
+    text-transform: uppercase;
+}
+
+article h1 {
+    margin-bottom: 30px;
+}
+
+article p:first-of-type {
+    opacity: 0.8;
+}
+
+article p {
+    margin-bottom: 10px;
+}
+
+article code {
+    background-color: silver;
+    border-radius: 5px;
+}
+
+article ul {
+    margin-bottom: 20px;
+}
+
+article section {
+    background-color: silver;
+    margin-bottom: 20px;
+}
+
+iframe {
+    border-radius: 20px;
+    margin-bottom: 40px;
+}
+
+
+
+/* TABELLE */
+
+/* FORM */
+
+/* ELEMENTI NELL' ASIDE */
+
+
+aside div {
+    background-color: silver;
+    margin-bottom: 15px;
+
+}
+
+
+as aside div::before {
+    content: "Articolo correlato";
+}
+
+
+/* FOOTER */
+
+footer {
+    background-color: cadetblue;
+    margin: 20px;
+    padding: 20px;
+    color: antiquewhite;
+}

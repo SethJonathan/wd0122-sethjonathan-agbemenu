@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="it">
+    <head>
+        <meta charset="utf-8">
+        <title>Esempio</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <style>
+            div {
+                height: 60vh;
+                background-color: red;
+            }
+            div:last-of-type {
+                background-color: blue;
+            }
+            div:first-of-type {
+                background-color: green;
+            }
+            a:first-of-type:hover ~ #pag1{
+                background-color: purple;
+            }
+            a:nth-of-type(2):hover ~ #pag2{
+                background-color: purple;
+            }
+            a:nth-of-type(3):hover ~ #pag3{
+                background-color: purple;
+            }
+        </style>
+    </head>
+    <body>
+        <a href="#pag1">1</a>
+        <a href="#pag2">2</a>
+        <a href="#pag3">3</a>
+        
+        <div id="pag1">test1</div>
+        <div id="pag2">test2</div>
+        <div id="pag3">test3</div>
