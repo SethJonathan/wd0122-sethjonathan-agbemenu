@@ -1,0 +1,85 @@
+/*generale*/
+
+body{
+    color: #393d41;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 1.2rem;
+    line-height: 1.65;
+}
+
+h1, h2{
+    color: #25a2c3;
+    font-family: 'Montserrat', sans-serif;
+    line-height: 1.5;
+    font-weight: bold;
+}
+
+
+header, main, footer{
+    text-align: center;
+    border-color: #dee1e3;
+    border-width: 15px;
+}
+
+blockquote{
+    font-style: italic;
+}
+
+
+.pulsante{
+    background-color: #f04c2f;
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    padding: 10px;
+    
+}
+
+/*header*/
+
+header{
+    background-color: black;
+}
+
+
+
+/*main*/
+
+main #Testata:type{
+    background-image: url(assets\images\banner.jpg);
+}
+
+
+
+main #primo-pc{
+    border-radius: 100%
+}
+
+main #garantisce{
+    background-color: #f04c2f;
+    color: white;
+}
+
+/*section*/
+
+
+
+/*footer*/
+
+aside, footer{
+    background-color: #25a2c3;
+}
+
+footer{
+    color: #c8e7f0;
+}
+
+footer h1{
+    color: white;
+}
+
+
+footer #link{
+    color: #c8e7f0;
+
+}
