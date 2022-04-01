@@ -8,31 +8,43 @@ body{
 }
 
 h1, h2{
-    color: #25a2c3;
     font-family: 'Montserrat', sans-serif;
     line-height: 1.5;
     font-weight: bold;
+}
+
+h1{
+    color: #25a2c3;
+
 }
 
 
 header, main, footer{
     text-align: center;
     border-color: #dee1e3;
-    border-width: 15px;
+    
 }
 
 blockquote{
     font-style: italic;
 }
 
+a{
+    color: inherit;
+}
 
-.pulsante{
-    background-color: #f04c2f;
-    text-decoration: none;
-    color: white;
-    font-weight: bold;
-    padding: 10px;
+
+
+hr{
+    border-color: white;
+    border-bottom: 1px solid white;
+    margin-top: 30px;
+    margin-bottom: 30px;
     
+}
+
+.pulsante a{
+    text-decoration: none;
 }
 
 /*header*/
@@ -45,41 +57,150 @@ header{
 
 /*main*/
 
-main #Testata:type{
-    background-image: url(assets\images\banner.jpg);
+main div#Testata{
+    background: url(../images/banner.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 50px 30px;
+    
 }
 
+
+button
+
+
+
+
+
+div#Testata p{
+    margin-bottom: 40px;
+}
+
+div#Testata h1{
+    font-size: 2.2em;
+}
+
+
+
+.button {
+    background-color: #f04c2f; 
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    display: inline-block;
+    font-size: 16px;
+    border-radius: 5px;
+    margin-top: 50px;
+  }
+
+.button a{
+    text-decoration: none;
+    font-weight: bold;
+}  
+
+main div#offerta h2{
+    color: #25a2c3;
+    font-weight: bold;
+    font-size: 1.3em;
+}
 
 
 main #primo-pc{
     border-radius: 100%
 }
 
-main #garantisce{
+main section#garantisce{
     background-color: #f04c2f;
     color: white;
+    padding: 50px;
+}
+
+main section#garantisce h1{
+    color: white;
+    font-size: 1.8em;
+    margin-bottom: 20px;
+}
+
+
+blockquote{
+    margin-bottom: 40px;
 }
 
 /*section*/
 
+section{
+    margin-top: 50px;
+}
+
+section#lavora-dove-vuoi{
+    margin-bottom: 50px;
+}
+
+
+
+
+/*article*/
+
+
+
+
+/*aside*/
+
+aside{
+    background-color: white;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 20px; 
+    text-align: center;   
+}
+
+aside h2{
+    color: #25a2c3;
+    margin-bottom: 10px;
+}
+
+.post{
+    width: 100%;
+    border: solid 1px rgba(119, 119, 119, 0.288);
+    margin-bottom: 20px;
+    border-bottom-left-radius: 10px;
+    border-top-right-radius: 10px;
+   
+    
+}
+
+.post p{
+    margin-bottom: 40px;
+}
+
+
+aside article.post img{
+    max-width: 100%;
+    max-height: 100%;
+}
 
 
 /*footer*/
 
-aside, footer{
+footer{
     background-color: #25a2c3;
 }
 
 footer{
     color: #c8e7f0;
+    padding: 60px;
 }
 
 footer h1{
     color: white;
+    font-size: 1.8em;
+    margin-bottom: 10px;
 }
 
 
 footer #link{
     color: #c8e7f0;
-
+    
 }
+
