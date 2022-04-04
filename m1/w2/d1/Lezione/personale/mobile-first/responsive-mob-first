@@ -1,0 +1,29 @@
+@media (min-width: 481px){
+    .blocco{
+        width:calc(100%/2- 2px);
+        display:inline-block;
+        margin-left: -4px;
+        margin-bottom: -3px;
+    }
+}
+
+@media(min-width:1280){
+    .blocco{
+        width:calc(100%/2- 2px);
+        display:inline-block;
+        margin-left: -4px;
+        margin-bottom: -3px;
+    }
+}
+
+
+@media(min-width:1440){
+    .blocco{
+        width:calc(100%/2- 2px);
+        display:inline-block;
+        margin-left: -4px;
+        margin-bottom: -3px;
+    }
+}
+
+
