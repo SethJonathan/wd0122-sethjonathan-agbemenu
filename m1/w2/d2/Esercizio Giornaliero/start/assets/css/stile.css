@@ -23,6 +23,8 @@ header {
     margin-bottom: 1.5em;
     padding: 2em 1.5em;
     position: sticky;
+    top: 0px;
+    z-index: 10;
     
 }
 header div img {
@@ -208,4 +210,28 @@ footer {
 }
 footer a {
     color: fuchsia;
+}
+
+/*pulsanti di navigazione*/
+
+.TornaSu{
+    position: fixed;
+    bottom: 10px;
+    right: -7px;
+}
+
+.InSocial{
+    position: fixed;
+    bottom: 20vh;
+    right: -7px;
+}
+
+.TornaSu a, .InSocial a{
+    color: #a02571;
+    font-size: 4rem;
+    display: block;
+}
+
+.InSocial a{
+    color: #3f6bca;
 }
