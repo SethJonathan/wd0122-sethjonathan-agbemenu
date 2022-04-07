@@ -32,9 +32,6 @@ h2{
     border: 1px solid grey;
 }
 
-
-
-
 .postit:nth-child(1){
     background-color:lightgoldenrodyellow;
     transform: rotate(-15deg);
@@ -70,68 +67,14 @@ h2{
     
 }
 
-.postit:hover{
-    transition: transform 2s;
-    transform: scale(120%);
-}
-
-
 .riga1 .postit:hover{
     transition: transform 2s;
     transform: scale(120%);
+    z-index:100;
 }
 
 .riga2 .postit:hover{
     transition: transform 2s;
     transform: scale(120%);
+    z-index:100;
 }
-
-/*.postit:hover{
-    width:15%;
-    height:150px;
-    
-}*/
-/*
-.postit:nth-child(1):hover{
-    animation-name: ruota-zoom-giallo;
-    animation-duration: 2.5s;
-    animation-iteration-count: infinite;
-}
-
-.riga1 .postit:nth-child(2n):hover{
-    animation-name: ruota-zoom-verde;
-    animation-duration: 2.5s;
-    animation-iteration-count: ;
-}
-.riga1 .postit:nth-child(3):hover{
-    animation-name: ruota-zoom-viola;
-    animation-duration: 2.5s;
-    animation-iteration-count: infinite;
-}
-
-.riga2 .postit:nth-child(2):hover{
-    animation-name: ruota-zoom-viola;
-    animation-duration: 2.5s;
-    animation-iteration-count: infinite;
-}
-
-.riga2 .postit:nth-child(3):hover{
-    animation-name: ruota-zoom-giallo;
-    animation-duration: 2.5s;
-    animation-iteration-count: infinite;
-}
-
-.riga2 .postit:nth-child(4):hover{
-    animation-name: ruota-zoom-verde;
-    animation-duration: 2.5s;
-    animation-iteration-count: 1;
-}    
-
-
-
-@keyframes ruota-zoom-verde {
-    0%{transform: rotate(0deg); width:0%; height:0%}
-    50%{transform: rotate(-20deg); width:15%; height:15% }
-    100%{transform: rotate(0deg); width:0%; height:0% }
-}
-*/
