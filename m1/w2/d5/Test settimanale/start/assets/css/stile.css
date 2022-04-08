@@ -1,0 +1,138 @@
+/* IMPOSTAZIONI GENERALI */
+html {font-size: 62.5%;}
+body{
+    font-family: 'Fira Sans', sans-serif;
+    font-size: 1.5rem;
+    line-height:1.8;
+    padding: 15px;
+    color: #000;       
+}
+
+header{
+    box-shadow:#d3d3d3;
+    background-color:white;
+}
+
+h1{
+    font-size: 4rem;
+}
+
+h2{
+    font-size: 3.5rem;
+}
+
+h1, h2, h3{
+        line-height:1;
+        font-weight: bold;
+}
+
+
+a:hover, a:visited, a:link, a:active, a:focus{
+    text-decoration: none;
+    color:inherit;
+    
+}
+
+.riquadro{
+    background: rgb(108,193,226);
+    background: -moz-linear-gradient(90deg, rgba(108,193,226,1) 0%, rgba(70,84,148,1) 60%, rgba(57,47,122,1) 100%);
+    background: -webkit-linear-gradient(90deg, rgba(108,193,226,1) 0%, rgba(70,84,148,1) 60%, rgba(57,47,122,1) 100%);
+    background: linear-gradient(90deg, rgba(108,193,226,1) 0%, rgba(70,84,148,1) 60%, rgba(57,47,122,1) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#6cc1e2",endColorstr="#392f7a",GradientType=1);
+    font-size: 1.9rem;
+    color: white;
+    border:none;
+    text-align: center;
+    padding: 0 1em;
+    margin-bottom: 1em;
+    width:fit-content;
+    display: inline-block;
+    
+
+
+}
+
+button{
+    background: rgb(108,193,226);
+    background: -moz-linear-gradient(90deg, rgba(108,193,226,1) 0%, rgba(70,84,148,1) 60%, rgba(57,47,122,1) 100%);
+    background: -webkit-linear-gradient(90deg, rgba(108,193,226,1) 0%, rgba(70,84,148,1) 60%, rgba(57,47,122,1) 100%);
+    background: linear-gradient(90deg, rgba(108,193,226,1) 0%, rgba(70,84,148,1) 60%, rgba(57,47,122,1) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#6cc1e2",endColorstr="#392f7a",GradientType=1);
+    font-size: 1.9rem;
+    color: white;
+    text-align: center;
+    padding: 4px 47px;
+    border: 0;
+}
+
+/* HEADER */
+
+/* MAIN */
+
+main div#titolo-epico{
+    background-image: url('../images/banner.jpg');
+    background-repeat: no-repeat;
+    background-size:cover;
+    padding: 50px 30px;
+}
+
+.sez-scrivici{
+    background-color:#0c0633;
+    text-align:center;
+    color: white;
+    padding: 50px;
+}
+
+
+/* FOOTER */
+
+footer #icone-footer{
+    color: #e42424;
+    font-size: 40px;
+}
+
+
+
+/* RESPONSIVE */
+
+@media screen and (min-width:500px) {
+    html {
+        font-size:70%
+    }
+    body {
+        line-height:1.8
+    }
+    h1, h2, h3{
+        line-height:1;
+    }
+}
+
+@media screen and (min-width:800px) {
+    html {
+        font-size:80%
+    }
+    body {
+        line-height:2;
+    }
+    h1, h2, h3{
+        line-height:1.1;
+    }
+}
+
+@media screen and (min-width:1200px) {
+    html {
+        font-size:100%
+    }
+    body {
+        line-height:2.4;
+    }
+    h1, h2, h3{
+        line-height:1.2;
+    }
+    header, main, footer {
+        max-width: 1200px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+}
+
