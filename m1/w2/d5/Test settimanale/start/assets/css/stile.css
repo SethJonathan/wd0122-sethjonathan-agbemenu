@@ -4,13 +4,13 @@ body{
     font-family: 'Fira Sans', sans-serif;
     font-size: 1.5rem;
     line-height:1.8;
-    padding: 15px;
     color: #000;       
 }
 
 header{
     box-shadow:#d3d3d3;
     background-color:white;
+    border-bottom: 3px solid #d3d3d3;
 }
 
 h1{
@@ -24,6 +24,8 @@ h2{
 h1, h2, h3{
         line-height:1;
         font-weight: bold;
+        margin-bottom: 20px;
+        margin-top: 20px;
 }
 
 
@@ -63,18 +65,26 @@ button{
     text-align: center;
     padding: 4px 47px;
     border: 0;
+    margin-top: 2px;
 }
 
 /* HEADER */
 
 /* MAIN */
 
+#titolo-epico p{
+    margin-bottom: 20px;
+}
+
 main div#titolo-epico{
     background-image: url('../images/banner.jpg');
     background-repeat: no-repeat;
     background-size:cover;
     padding: 50px 30px;
+    color: white;
 }
+
+
 
 .sez-scrivici{
     background-color:#0c0633;
@@ -83,13 +93,110 @@ main div#titolo-epico{
     padding: 50px;
 }
 
+article{
+    text-align:center;
+}
+
+article #motivazioni .icone{
+    color: #e42424;
+    font-size:4rem;
+} 
+
+aside{
+    text-align: center;
+}
+
+aside section.chi i{
+    color: #e42424;
+}
+
+#prezzo-corsi{
+    text-align: center;
+    padding-left: 50px;
+    padding-right: 50px;
+    margin-bottom: 40px;
+}
+
+#prezzario-large{
+    border-collapse: collapse;
+    width: 100%;
+}
+
+#prezzario-large td, #prezzario-large th{
+    padding: 8px;
+}
+
+#prezzario-large tr:nth-child(even){background-color: #d2dce7;}
+
+#prezzario-large th{
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: center;
+    background-color: #486585;
+    color:white;
+}
+
+#prezzario-large tr{
+    text-align: center;
+}
+
+
+#prezzario-mobile{
+    border-collapse: collapse;
+    width: 100%;
+    text-align:left;
+}
+
+#prezzario-mobile td:nth-child(1){
+    font-weight: bold;
+}    
+
+
+#prezzario-mobile tr:nth-child(n+7){background-color: #d2dce7;}
+#prezzario-mobile tr:nth-child(1), #prezzario-mobile tr:nth-child(2), #prezzario-mobile tr:nth-child(3){background-color: #d2dce7;}
+
+section.spiega{
+    text-align:center;
+}
+
+section.spiega img{
+    height:250px;
+}  
+
+section#compilazione{
+    margin-bottom: 20px;
+}
+
+div#Sezione-contatti{
+    text-align:center;
+}
+
+div#Relazionarsi{
+    text-align:center;
+}
+
+section#info-sede{
+    text-align: center;
+}
+
 
 /* FOOTER */
+
+footer{
+    background-color: rgb(238, 238, 238);
+    padding: 50px;
+}
+
 
 footer #icone-footer{
     color: #e42424;
     font-size: 40px;
 }
+
+footer #newsletter #email, footer #newsletter button{
+    text-align: center;
+}
+
 
 
 
@@ -105,6 +212,16 @@ footer #icone-footer{
     h1, h2, h3{
         line-height:1;
     }
+    footer #newsletter{
+        width:100%;
+        text-align: center;
+    }
+    #prezzo-corsi #prezzario-mobile{
+        display:inline;
+    }
+    #prezzo-corsi #prezzario-large{
+        display:none;
+    }
 }
 
 @media screen and (min-width:800px) {
@@ -116,6 +233,13 @@ footer #icone-footer{
     }
     h1, h2, h3{
         line-height:1.1;
+    }
+    #prezzo-corsi #prezzario-mobile{
+        display:none;
+    }
+
+    #prezzo-corsi #prezzario-large{
+        display:inline;
     }
 }
 
@@ -130,7 +254,6 @@ footer #icone-footer{
         line-height:1.2;
     }
     header, main, footer {
-        max-width: 1200px;
         margin-left: auto;
         margin-right: auto;
     }
