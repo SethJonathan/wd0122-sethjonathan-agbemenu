@@ -70,6 +70,27 @@ button{
 
 /* HEADER */
 
+header{
+    width: 100%;
+    position: fixed;
+    display: inline-block;
+    text-align:justify;
+}
+
+nav#large-nav{
+    position:absolute;
+    bottom: 0;
+    width: 100%;
+    
+    
+}
+
+nav#large-nav > ul > li{
+    display: inline-block;
+    padding: 10px;
+    position: relative;
+}
+
 /* MAIN */
 
 #titolo-epico p{
@@ -222,6 +243,12 @@ footer #newsletter #email, footer #newsletter button{
     #prezzo-corsi #prezzario-large{
         display:none;
     }
+    nav#large-nav{
+        display:none;
+    }
+    nav#mobile-nav{
+        display:inline;
+    }
 }
 
 @media screen and (min-width:800px) {
@@ -239,6 +266,12 @@ footer #newsletter #email, footer #newsletter button{
     }
 
     #prezzo-corsi #prezzario-large{
+        display:inline;
+    }
+    nav#mobile-nav{
+        display:none;
+    }
+    nav#large-nav{
         display:inline;
     }
 }

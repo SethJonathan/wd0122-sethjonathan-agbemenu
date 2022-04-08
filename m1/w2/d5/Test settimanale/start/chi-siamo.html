@@ -17,7 +17,21 @@
 <body>
   <header>
     <img src="assets/images/logo.png" alt="" srcset="">
-    <nav></nav>
+    <nav id="large-nav">
+      <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="chi-siamo.html">Chi siamo</a></li>
+          <li><a href="contatti.html">Contatti</a></li>
+          <li><button>Registrati!</button></li>
+      </ul>
+    </nav>
+    <nav id="mobile-nav">
+      <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="chi-siamo.html">Chi siamo</a></li>
+          <li><a href="contatti.html">Contatti</a></li>
+      </ul>
+    </nav>
   </header>
   <main>
     <article>
@@ -117,8 +131,11 @@
     </div>
     <div id="newsletter">
       <h3>Iscriviti alla nostra newsletter</h3>
-      <input type="email" name="" id="email"><br>
-      <button type="submit">Va bene!</button>
+      <form>
+        <label for="Email"></label>
+        <input type="email" name="" id="email"><br>
+        <button type="submit">Va bene!</button>
+      </form>
     </div>
     <p> &copy;2021 Epicode Web Developer school - Via Appia 1, 00100 Roma(RM) - Tel. 06-12345678 </p>
   </footer>
