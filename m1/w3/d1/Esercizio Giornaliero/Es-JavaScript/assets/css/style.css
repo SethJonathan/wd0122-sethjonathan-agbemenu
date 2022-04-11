@@ -1,0 +1,19 @@
+
+
+
+h1, h2, h3, h4, h5, h6{
+    margin-bottom: 20px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: bold;
+}
+
+#selv, #selv{
+    margin-bottom: 20px
+}
+
+#scelto img{
+    width: 500px;
+    height : 300px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
