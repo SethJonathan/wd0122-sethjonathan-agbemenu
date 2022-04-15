@@ -1,0 +1,114 @@
+
+html{
+    background-image: url('../img/scott-webb-UjupleczBOY-unsplash.jpg');
+}
+
+.contenitore{
+    max-width: 450px;
+    margin: 10vh auto 0 auto;
+    box-shadow: 0px 0px 43px 17px rgba(153,153,153,1);
+    font-family: 'Orbitron', sans-serif;
+    font-weight: bold;
+    border-radius: 5%;
+    text-align: center;
+    background: rgb(238,174,202);
+    background: radial-gradient(circle, rgba(238,174,202,1) 0%, rgba(148,187,233,1) 100%);
+    padding: 25px;
+}
+
+#cornice-schermo{
+    align-content: center;
+}
+
+#display{
+    text-align:right;
+    height: 150px;
+    line-height: 70px;
+    width: 400px;
+    margin-top: 15px;
+    margin-bottom: 25px;
+    border-width: 10px;
+    border-color: crimson;
+    border-radius: 5%;
+    background-color:deepskyblue;
+    color: white;
+}
+
+input[type="text"]{
+    font-family: 'Orbitron', sans-serif;
+    font-weight: bold;
+    font-size: 2.0em;
+}
+
+.pulsanti{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    border-bottom: 1px solid #999; 
+    border-left: 1px solid #999; 
+    border-radius: 5%;
+
+}
+
+
+
+.pulsanti > div{
+    border-top: 2px solid #999;
+    border-right: 2px solid #999;
+    
+}
+
+.pulsanti{
+    /* border: 0.5px solid #999; */
+    line-height: 100px;
+    text-align: center;
+    font-size: 2.0em;  
+    cursor: pointer;
+}
+
+#uguale{
+    background-color: #5555ff;
+    color: white;
+}
+
+#parOp, #punto, #parCl{   
+    color:white;    
+}
+
+#diviso, #moltipl, #diff, #plus{
+    color:white;
+}
+
+
+
+.pulsante:hover{
+    background-color: #323330;
+    color: white;
+    transition: 0.5s ease-in-out;
+}
+
+
+#parOp:hover, #punto:hover, #parCl:hover{
+    background-color:darkgreen;
+    transition: 0.5s ease-in-out;
+} 
+
+#diviso:hover, #moltipl:hover, #diff:hover, #plus:hover{
+    background-color:darkslateblue;
+    transition: 0.5s ease-in-out;
+}
+
+#indietro:hover, #elimina:hover{
+    background-color:crimson;
+    transition: 0.5s ease-in-out;
+}
+
+
+#uguale:hover{
+    background-color:darkorange;
+    transition: 0.5s ease-in-out;
+}
+
+.pulsante{
+    border-radius: 20%;
+}
+

@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="assets/css/reset.css">
+    <link rel="stylesheet" href="assets/css/all.css">
+    <link rel="stylesheet" href="assets/css/stile.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Orbitron&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="contenitore">
+        <div id="cornice-schermo">
+            <img src="assets/img/logo.png" alt="" srcset="">
+            <input type="text" id="display" readonly >
+        </div>
+        
+        <div class="pulsanti">
+            
+            <div id="parOp" class="pulsante" onclick="aggiungiNumero(this)">(</div>
+            <div id="punto" class="pulsante" onclick="aggiungiNumero(this)">.</div>
+            <div id="parCl" class="pulsante" onclick="aggiungiNumero(this)">)</div>
+            <div id="diviso" class="pulsante" onclick="aggiungiNumero(this)">/</i></div>
+
+            <div class="pulsante" onclick="aggiungiNumero(this)">7</div>
+            <div class="pulsante" onclick="aggiungiNumero(this)">8</div>
+            <div class="pulsante" onclick="aggiungiNumero(this)">9</div>
+            <div id="moltipl" class="pulsante" onclick="aggiungiNumero(this)">*</div>
+
+            <div class="pulsante" onclick="aggiungiNumero(this)">4</div>
+            <div class="pulsante" onclick="aggiungiNumero(this)">5</div>
+            <div class="pulsante" onclick="aggiungiNumero(this)">6</div>
+            <div id="diff" class="pulsante" onclick="aggiungiNumero(this)">-</i></div>
+
+            <div class="pulsante" onclick="aggiungiNumero(this)">1</div>
+            <div class="pulsante" onclick="aggiungiNumero(this)">2</div>
+            <div class="pulsante" onclick="aggiungiNumero(this)">3</div>
+            <div id="plus" class="pulsante" onclick="aggiungiNumero(this)">+</i></div>
+
+            <div id="elimina" class="pulsante" onclick="pulisci(this)">C</div>
+            <div class="pulsante" onclick="aggiungiNumero(this)">0</div>            
+            <div id="indietro" class="pulsante" onclick="elimina(this)"><i class="fa fa-backspace"></i></div>
+            <div id="uguale" class="pulsante" onclick="risultato()">=</div>
+            
+        </div>
+
+    </div>
+
+
+    <audio id='mySound' src='assets/audio/Mouse-Click-00-c-FesliyanStudios.com.mp3'>
+
+
+
+    <script src="assets/js/script.js"></script>
+</body>
+</html>
+
+<!-- <div class="pulsante" onclick="aggiungiNumero(this)">(</div> -->
