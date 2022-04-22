@@ -1,3 +1,5 @@
+
+
 function aggiungiNumero(bottone){
     let numero =bottone.innerHTML;
     let display = document.querySelector('#display');
@@ -6,8 +8,8 @@ function aggiungiNumero(bottone){
 
 function risultato(){
     let display = document.querySelector('#display')
-    let totale = eval(display.value)
-    display.value=totale
+    let totale = eval(display.value);
+    display.value=totale           
 }
 
 function elimina(){
@@ -30,3 +32,5 @@ function StopSound(soundobj) {
     thissound.pause();
     thissound.currentTime = 0;
 }
+
+
