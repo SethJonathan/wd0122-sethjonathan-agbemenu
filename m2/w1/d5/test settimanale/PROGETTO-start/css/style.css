@@ -1,7 +1,7 @@
 .container {
     width: 600px;
     margin: auto;
-    background-color: lightgrey;
+    background-color: rgb(231, 134, 78);
 
 }
 
@@ -26,8 +26,8 @@
     margin: 20px 10px;
     width: 120px;
     height: 120px;
-    background-color: #ffc83d;
-    border: 1px solid #3889c4;
+    background-color: #642f0c;
+    border: 1px solid #ac0bcc;
     border-radius: 10px;
 
 }
@@ -54,7 +54,7 @@
 .show {
     animation-name: rotazione-carta;
     animation-duration: .5s;
-    background-color: white;
+    background-color: rgb(1, 62, 104);
     border: 1px solid #3889c4;
     border-radius: 10px;
 }
@@ -73,14 +73,16 @@
     text-align: center;
     margin-top: 10px;
     padding: 10px;
-    background-color: #ffc83d;
+    background-color: #6a0877;
     border: 1px solid #3889c4;
-    border-radius: 5px;
+    border-radius: 15px;
 }
 
 .button:hover {
     background-color: #16486c;
     border: none;
+    cursor: pointer;
+    
 }
 
 #modal {
