@@ -1,0 +1,7 @@
+/*posso sovrascrivere classi di bootstrap se sono sicuro di volerle tutte con questo stile*/
+.bitn-primary{
+    background-color:aqua;
+    border-color: black;
+    color: #000;
+}
+
