@@ -1,0 +1,29 @@
+$viola: rgb(121, 26, 209);
+
+
+
+@import '_header';
+
+@import '_bottone';
+
+body{
+    background-color: $viola;
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    
+
+}
+
+
+
+.showcase-content{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+
+a, a:link, a:visited, a:active, a:hover {
+    text-decoration: none;
+    border:0
+}
