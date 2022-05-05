@@ -7,32 +7,42 @@ header nav {
   display: flex;
   justify-content: space-between; }
 
+header nav h1 {
+  font-size: 2em; }
+
 header nav ul {
   display: flex;
   flex-direction: row;
   color: unset;
   list-style-type: none;
-  color: white; }
+  color: white;
+  font-weight: bold; }
 
 header nav ul li {
   margin-left: 10px;
   text-decoration: none;
   border-bottom-style: none;
-  border: none;
-  color: white;
-  font-weight: bold; }
+  border: none; }
 
 .btn-primary {
+  border: 1px solid #000;
   text-decoration: none;
   background-color: #3255c5;
   padding: 10px;
   color: white; }
+  .btn-primary:hover {
+    transition: all 1.5s;
+    background-color: #153ab3; }
 
 .btn-secondary {
+  border: 1px solid #000;
   text-decoration: none !important;
   background-color: #da7f17;
   padding: 10px;
   color: white; }
+  .btn-secondary:hover {
+    transition: all 1.5s;
+    background-color: #ad6410; }
 
 body {
   background-color: #791ad1;

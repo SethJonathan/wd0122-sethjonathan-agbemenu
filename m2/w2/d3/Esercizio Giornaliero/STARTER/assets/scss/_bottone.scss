@@ -1,15 +1,24 @@
 
-
-
-.btn-primary{
+.btn-primary{    
+    border: 1px solid #000;
     text-decoration: none;
     background-color: rgb(50, 85, 197);
     padding: 10px;
     color: white;
+    &:hover{
+        transition: all 1.5s;
+        background-color: rgb(21, 58, 179);
+    }
 }
 .btn-secondary{
+    border: 1px solid #000;
     text-decoration: none !important;
     background-color: rgb(218, 127, 23);
     padding: 10px;
     color: white;
+    &:hover{
+        transition: all 1.5s;
+        background-color: rgb(173, 100, 16);
+    }
 }
+

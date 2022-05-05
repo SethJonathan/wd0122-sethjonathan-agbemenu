@@ -1,0 +1,91 @@
+header .container {
+  padding: 30px;
+  padding-left: 150px;
+  padding-right: 150px;
+}
+
+header nav {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+header nav h1 {
+  font-size: 4em;
+}
+
+header nav ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  color: unset;
+  list-style-type: none;
+  color: white;
+}
+
+header nav ul li {
+  margin-left: 10px;
+  text-decoration: none;
+  border-bottom-style: none;
+  border: none;
+  color: white;
+  font-weight: bold;
+}
+
+.btn {
+  -webkit-transition: all 1.5s;
+  transition: all 1.5s;
+}
+
+.btn-primary {
+  text-decoration: none;
+  background-color: #3255c5;
+  padding: 10px;
+  color: white;
+}
+
+.btn-primary:hover {
+  background-color: #153ab3;
+}
+
+.btn-secondary {
+  text-decoration: none !important;
+  background-color: #da7f17;
+  padding: 10px;
+  color: white;
+}
+
+.btn-secondary:hover {
+  background-color: #794509;
+}
+
+body {
+  background-color: #791ad1;
+  margin: 0;
+  padding: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.showcase-content {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+a, a:link, a:visited, a:active, a:hover {
+  text-decoration: none;
+  border: 0;
+}

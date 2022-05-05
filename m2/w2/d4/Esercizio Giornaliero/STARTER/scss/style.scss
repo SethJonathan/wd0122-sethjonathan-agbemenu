@@ -1,0 +1,38 @@
+a{
+    text-decoration: none;
+}
+
+
+@import 'bottone';
+@import 'header';
+
+
+
+
+body{
+    display: flex;
+    flex-direction: column;
+    font-family: 'Open Sans', sans-serif;
+}
+
+p a{
+    font-style: italic;
+    color:orange;
+}
+
+
+
+#main{
+    article{
+        flex-basis: 75%;
+    }
+    aside{
+        flex-basis: 25%;
+    }
+}
+
+#sidebar li{
+    text-decoration-line: underline;
+    text-decoration-style: dotted;  
+
+}

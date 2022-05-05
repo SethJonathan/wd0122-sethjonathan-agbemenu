@@ -1,0 +1,69 @@
+h1 {
+  font-size: 1.5rem;
+  margin-top: 10px;
+  color: #808080;
+  padding: 15px;
+  font-weight: bold;
+  background-color: #fff; }
+  @media screen and (min-width: 768px) {
+    h1 {
+      font-size: 2rem; } }
+  @media screen and (min-width: 1440px) {
+    h1 {
+      font-size: 4rem; } }
+  h1:hover {
+    background-color: red;
+    color: #343434; }
+  h1:after {
+    content: ">"; }
+
+p {
+  font-size: 1rem;
+  margin-top: 10px;
+  color: #808080;
+  padding: 15px;
+  font-weight: 400;
+  background-color: #0f0080; }
+
+#p1 {
+  color: red; }
+
+#p2 {
+  background-color: red;
+  color: #fff;
+  width: miafunzione; }
+
+#d1 {
+  background-color: black;
+  color: #ff9999; }
+
+.main_div, .special div {
+  margin: 5px;
+  border-top: 1px solid #ccc;
+  width: 250px; }
+
+.special div {
+  height: 250px;
+  margin-left: auto; }
+
+/*cicli*/
+.bordo1 {
+  border-top: 3px solid #000; }
+
+.bordo2 {
+  border-top: 6px solid #000; }
+
+.bordo3 {
+  border-top: 9px solid #000; }
+
+.m1-misure {
+  margin-left: misure; }
+
+.mr-misure {
+  margin-right: misure; }
+
+.mt-misure {
+  margin-top: misure; }
+
+.mb-misure {
+  margin-bottom: misure; }
