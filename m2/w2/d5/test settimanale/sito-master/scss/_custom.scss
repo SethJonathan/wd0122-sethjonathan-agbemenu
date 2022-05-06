@@ -1,0 +1,20 @@
+a{
+    text-decoration: none;
+}
+
+body{
+    display:flex;
+    flex-direction:column;
+}
+
+.prima-parte {
+    background: url("../img/pexels-aleksandar-pasaric-325185.jpg") no-repeat 0 -300px;
+    height: 500px;
+    padding: 20px 0;
+}
+
+nav{
+    display:flex;
+    justify-content: space-between;
+}
+
