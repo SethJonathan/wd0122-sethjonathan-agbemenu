@@ -33,7 +33,9 @@ fetch("json/users.json")
         tr.append(tdUser,tdNome,tdCognome,tdGenere,tdEmail,tdFoto)
         
         tabella.append(tr)
+        
     }
+                                
 })
 
 
