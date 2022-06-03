@@ -1,0 +1,32 @@
+<div class="container">
+  <form>
+    <input type="text" class="form-control" name="name" [(ngModel)]="name" placeholder="nome">
+    <input type="text" class="form-control" name="lastname" [(ngModel)]="lastname" placeholder="cognome">
+
+    <button (click)="aggiungiUomo()" class="btn btn-primary">Inserisci Uomo</button>
+    <button (click)="aggiungiDonna()" class="btn btn-primary">Inserisci Donna</button>  
+  </form>
+</div>
+
+{{name}}
+
+<table class="table">
+  <tr>
+    <th>Name</th>
+    <th>Lastname</th>
+    <th>gender</th>
+  </tr>
+  <tr *ngFor="let user of users">
+    <td>{{user.name}}</td>
+    <td>{{user.lastName}}</td>
+    <td>{{user.gender}}</td>
+  </tr>
+</table>
+
+
+
+
+
+
+
+<router-outlet></router-outlet>

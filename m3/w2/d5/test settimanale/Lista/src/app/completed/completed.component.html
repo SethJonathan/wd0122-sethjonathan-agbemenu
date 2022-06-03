@@ -1,0 +1,21 @@
+<button (click)="refresh()">refresh</button>
+<ng-container *ngIf="todos; else loading">
+    <section *ngIf="todos.length > 0; else empty">
+        <div *ngFor="let todo of todos;">
+              {{todo.title}}
+              <button (click)="elimina(todo.id)">Elimina</button>
+        </div>
+    </section>
+
+
+</ng-container>
+
+<ng-template #loading>
+    Caricamento in corso...
+</ng-template>
+
+
+<ng-template #empty>
+  Non ci sono todo
+</ng-template>
+

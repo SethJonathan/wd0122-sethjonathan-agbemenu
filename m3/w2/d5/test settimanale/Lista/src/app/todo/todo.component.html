@@ -1,0 +1,24 @@
+<input type="text" [(ngModel)]="input" ><button 
+(click)="aggiungi()">Aggiungi</button>
+
+<hr>
+
+<ng-container *ngIf="todos; else loading">
+    <section *ngIf="todos.length > 0; else empty">
+        <div *ngFor="let todo of todos; ">
+              {{todo.title}}
+              <button (click)="completa(todo.id)">Completa</button>
+        </div>
+    </section>
+
+
+</ng-container>
+
+<ng-template #loading>
+    Caricamento in corso...
+</ng-template>
+
+
+<ng-template #empty>
+  Non ci sono todo
+</ng-template>
