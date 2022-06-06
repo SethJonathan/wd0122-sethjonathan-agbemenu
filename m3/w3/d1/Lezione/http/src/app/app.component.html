@@ -1,0 +1,15 @@
+<h1>Aggiungi utente</h1>
+<form>
+  <input type="text" class="text" [(ngModel)]="newUser.first_name">
+  <input type="text" class="text" [(ngModel)]="newUser.first_lastname">
+  <button>Crea</button>
+</form>
+<hr>
+<button class="btn btn-primary" (click)="fetchUsers()">Recupera utenti</button>
+<div>
+  <h1>Utenti:</h1>
+  <div *ngFor="let user of users">
+    {{user.first_name}}
+    {{user.last_name}}
+  </div>
+</div>
