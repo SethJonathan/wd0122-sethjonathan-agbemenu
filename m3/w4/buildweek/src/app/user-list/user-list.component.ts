@@ -1,5 +1,4 @@
 import { Component, OnInit } from '@angular/core';
-import DbJson from '../../../db.json';
 
 @Component({
   selector: 'app-user-list',
