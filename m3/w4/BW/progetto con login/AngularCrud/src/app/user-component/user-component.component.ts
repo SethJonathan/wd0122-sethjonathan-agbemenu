@@ -1,7 +1,7 @@
 import { Component, OnInit } from '@angular/core';
 import { AuthData, AuthService } from '../auth/auth.service';
 
-interface User {
+interface IUser {
   name: string;
   email: string;
   id: number;
@@ -14,7 +14,7 @@ interface User {
 })
 export class UserComponentComponent implements OnInit {
 
-  user!:User;
+  user!:IUser;
 
   constructor(private authSrv:AuthService) { }
 
