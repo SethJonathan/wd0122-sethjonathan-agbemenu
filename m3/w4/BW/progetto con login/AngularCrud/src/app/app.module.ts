@@ -21,6 +21,7 @@ import { ListaFilmComponent } from './lista-film/lista-film.component';
 import {MatPaginatorModule} from '@angular/material/paginator';
 import {MatSortModule} from '@angular/material/sort';
 import { HomeComponent } from './home/home.component';
+import { UserComponentComponent } from './user-component/user-component.component';
 
 @NgModule({
   declarations: [
@@ -28,7 +29,8 @@ import { HomeComponent } from './home/home.component';
     NavbarComponent,
     DialogComponent,
     ListaFilmComponent,
-    HomeComponent
+    HomeComponent,
+    UserComponentComponent
   ],
   imports: [
     BrowserModule,

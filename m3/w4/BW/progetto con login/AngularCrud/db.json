@@ -1,10 +1,22 @@
 {
   "filmList": [
     {
-      "filmName": "Consequuntur digniss",
+      "filmName": "Ipsum enim nemo sint",
       "category": "Horror",
-      "description": "Magni illum hic rem",
+      "description": "Ab ad sapiente sint ",
       "id": 1
+    },
+    {
+      "filmName": "Qui consequuntur qui",
+      "category": "Commedia",
+      "description": "Fugiat sapiente fug",
+      "id": 2
+    },
+    {
+      "filmName": "Aut duis eiusmod qua",
+      "category": "Horror",
+      "description": "Commodi molestias qu",
+      "id": 3
     }
   ],
   "comments": [
@@ -16,5 +28,6 @@
   ],
   "profile": {
     "name": "typicode"
-  }
+  },
+  "user": []
 }

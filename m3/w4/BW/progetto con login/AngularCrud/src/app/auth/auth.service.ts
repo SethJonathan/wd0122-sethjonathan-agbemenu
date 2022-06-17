@@ -20,7 +20,7 @@ export interface AuthData{
 })
 export class AuthService {
 
-  apiUrl = "http://localhost:3000/"
+  apiUrl = "http://localhost:/3000/"
 
   jwtHelper = new JwtHelperService()
 
