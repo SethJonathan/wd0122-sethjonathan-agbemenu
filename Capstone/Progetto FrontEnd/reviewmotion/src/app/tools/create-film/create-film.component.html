@@ -1,0 +1,33 @@
+<mat-card>
+    <mat-card-header>
+        <mat-card-title>Scheda Creazione Film</mat-card-title>
+    </mat-card-header>
+    <div class="film-tit">
+        <h3>Titolo del film</h3>
+        <textarea #titleInput placeholder="Titolo..."></textarea>
+    </div>
+    <div class="film-desc">
+        <h3>Breve descrizione in poche parole</h3>
+        <textarea #descriptionInput placeholder="Descrizione..."></textarea>
+    </div>
+    <div class="film-riass">
+        <h3>Riassunto del film</h3>
+        <textarea #commentInput 
+               placeholder="Riassunto...">
+        </textarea>
+    </div>
+    <div *ngIf="selectedImageFile" id="film-preview">
+        <img id="film-preview-image"/>
+    </div>
+    <mat-card-actions align="end">
+        <button mat-button color="warn">
+            <label for="photo-upload">
+                <input #photoSelector (change)="onPhotoSelected(photoSelector)"
+                id="photo-upload" type="file" accept="image/*"/>
+                <mat-icon>insert_photo</mat-icon>
+            </label>
+        </button>
+        <button (click)="onFilmClick(commentInput, titleInput, descriptionInput)" 
+                mat-flat-button color="warn">Inserisci</button>
+    </mat-card-actions>
+</mat-card>

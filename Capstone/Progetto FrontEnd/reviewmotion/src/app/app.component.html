@@ -1,0 +1,73 @@
+<div id="main">
+  <div id="nav-bar">
+    <div id="nav-bar-content">
+        <div id="nav-bar-left">
+            <div class="nav-bar-items">REVIEWMOTION</div>
+        </div>
+        <div id="nav-bar-right">
+            <div *ngIf="!loggedIn()" (click)="onLoginClick()" class="nav-bar-items">Login</div>
+            <div *ngIf="loggedIn() && userHasProfile" class="nav-bar-items">
+                Benvenuto, <button (click)="sidenav.toggle()" mat-flat-button title="accedi alla dashboard">
+                  {{getUsername()}}
+                </button>
+                  <!-- <button mat-icon-button (click)="sidenav.toggle()">
+                    <mat-icon *ngIf="sidenav.close">
+                      menu
+                    </mat-icon>
+                    <mat-icon *ngIf="sidenav.open">
+                      close
+                    </mat-icon>
+                  </button>                -->
+            </div>
+            
+        </div>    
+    </div>
+  </div>
+  <mat-sidenav-container>
+    <mat-sidenav *ngIf="loggedIn() && userHasProfile" #sidenav="matSidenav" mode="over" position="end">
+      <h3>Ciao {{getUsername()}}</h3>
+      <h4>Questa è la tua dashboard</h4>
+      <p>Sei un amministratore di questo sito e puoi aggiungere i film liberamente alla piattaforma</p>
+
+      <mat-divider></mat-divider>
+
+      <button mat-button class="menu-button">
+        <mat-icon>home</mat-icon>
+        <span>Home</span>
+      </button>
+      
+      <button mat-button class="menu-button">
+        <mat-icon>person</mat-icon>
+        <span>Profilo</span>
+      </button>
+
+      
+      <button mat-button class="menu-button">
+        <mat-icon>info</mat-icon>
+        <span>Info</span>
+      </button>
+
+      <mat-divider></mat-divider>
+
+      <button mat-button class="menu-button">
+        <mat-icon>help</mat-icon>
+        <span>Aiuto</span>
+      </button>
+
+      <mat-divider></mat-divider>
+
+      <button mat-button class="menu-button" color="warn" *ngIf="loggedIn()" (click)="onLogoutClick()">
+        <mat-icon>exit_to_app</mat-icon>
+        <span>Logout</span>
+      </button>
+      
+    </mat-sidenav>
+    <mat-sidenav-content>
+      <div class="content mat-elevation-z4">
+        <router-outlet></router-outlet>
+      </div>
+    </mat-sidenav-content>
+  </mat-sidenav-container>
+</div>
+<app-profile [show]="loggedIn() && !userHasProfile"></app-profile>
+

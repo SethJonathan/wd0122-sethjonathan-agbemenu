@@ -1,0 +1,9 @@
+<div id="feed">
+    <div id="films-home-feed">
+        <app-film *ngFor="let film of films" [filmData]="film" ></app-film>
+    </div>
+    <button mat-fab color="warn" id="film-button" title="inserisci films"
+        (click)="onCreateFilmClick()">
+        <mat-icon>add</mat-icon>
+    </button>
+</div>

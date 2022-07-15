@@ -1,0 +1,34 @@
+<mat-card class="film-card">
+    <mat-card-header>
+        <div class="titoli">
+            <mat-card-title>{{filmData?.title}}</mat-card-title>
+            <mat-card-subtitle>{{filmData?.description}}</mat-card-subtitle>
+        </div>
+        <div class="voto">
+            <h3>Voto medio:</h3>
+            <div id="stelle">
+                <mat-icon>stars</mat-icon>
+                <mat-icon>stars</mat-icon>
+                <mat-icon>stars</mat-icon>
+                <mat-icon>stars</mat-icon>
+                <mat-icon>stars</mat-icon>
+            </div>
+        </div>
+        
+    </mat-card-header>
+    <div class="contenuto">
+        <img mat-card-image src="{{filmData?.imageUrl}}">
+    
+        <mat-card-content class="riassunto">
+            {{filmData?.comment}}
+        </mat-card-content>
+    </div>
+   <!-- <textarea class="" placeholder="commenta"></textarea> -->
+
+    <mat-card-actions>
+        <button (click)="onReplyClick()"
+        class="action-item" color="warn">Accedi ai Commenti</button>
+    </mat-card-actions>
+
+</mat-card>
+
